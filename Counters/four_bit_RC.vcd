@@ -1,0 +1,220 @@
+$date
+	Fri Aug 29 22:47:21 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module four_bit_RC_tb $end
+$var wire 4 ! q [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$var reg 4 $ t [3:0] $end
+$scope module DUT $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 4 % t [3:0] $end
+$var wire 4 & q [3:0] $end
+$scope module M1 $end
+$var wire 1 " clk $end
+$var wire 1 ' in $end
+$var wire 1 # rst $end
+$var reg 1 ( out $end
+$upscope $end
+$scope module M2 $end
+$var wire 1 ) clk $end
+$var wire 1 * in $end
+$var wire 1 # rst $end
+$var reg 1 + out $end
+$upscope $end
+$scope module M3 $end
+$var wire 1 , clk $end
+$var wire 1 - in $end
+$var wire 1 # rst $end
+$var reg 1 . out $end
+$upscope $end
+$scope module M4 $end
+$var wire 1 / clk $end
+$var wire 1 0 in $end
+$var wire 1 # rst $end
+$var reg 1 1 out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+01
+10
+0/
+0.
+1-
+0,
+0+
+1*
+0)
+0(
+1'
+b0 &
+b1111 %
+b1111 $
+1#
+0"
+b0 !
+$end
+#5
+1"
+#7
+1)
+0,
+0/
+1(
+0+
+0.
+b1 !
+b1 &
+01
+0#
+#10
+0"
+#15
+0)
+b0 !
+b0 &
+0(
+1"
+#20
+0"
+#25
+11
+1/
+1.
+1,
+1+
+1)
+b1111 !
+b1111 &
+1(
+1"
+#30
+0"
+#35
+0)
+b1110 !
+b1110 &
+0(
+1"
+#40
+0"
+#45
+0,
+0+
+1)
+b1101 !
+b1101 &
+1(
+1"
+#50
+0"
+#55
+0)
+b1100 !
+b1100 &
+0(
+1"
+#60
+0"
+#65
+0/
+0.
+1,
+1+
+1)
+b1011 !
+b1011 &
+1(
+1"
+#70
+0"
+#75
+0)
+b1010 !
+b1010 &
+0(
+1"
+#80
+0"
+#85
+0,
+0+
+1)
+b1001 !
+b1001 &
+1(
+1"
+#90
+0"
+#95
+0)
+b1000 !
+b1000 &
+0(
+1"
+#100
+0"
+#105
+01
+1/
+1.
+1,
+1+
+1)
+b111 !
+b111 &
+1(
+1"
+#110
+0"
+#115
+0)
+b110 !
+b110 &
+0(
+1"
+#120
+0"
+#125
+0,
+0+
+1)
+b101 !
+b101 &
+1(
+1"
+#130
+0"
+#135
+0)
+b100 !
+b100 &
+0(
+1"
+#140
+0"
+#145
+0/
+0.
+1,
+1+
+1)
+b11 !
+b11 &
+1(
+1"
+#150
+0"
